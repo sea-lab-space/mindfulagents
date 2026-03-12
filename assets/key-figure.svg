@@ -1,0 +1,45 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MindfulAgents Key Figure Placeholder</title>
+  <desc id="desc">System diagram showing user context to multi-agent personalization and outcomes.</desc>
+  <rect width="1200" height="680" fill="#F6FBF8"/>
+  <rect x="42" y="42" width="1116" height="596" rx="26" fill="#FFFFFF" stroke="#D6E8DE" stroke-width="2"/>
+
+  <rect x="90" y="120" width="260" height="440" rx="18" fill="#E8F3EE"/>
+  <text x="220" y="168" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700" fill="#154734">User Inputs</text>
+  <rect x="120" y="200" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#C6DED2"/>
+  <text x="220" y="252" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1D3A2F">Emotional State</text>
+  <rect x="120" y="310" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#C6DED2"/>
+  <text x="220" y="362" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1D3A2F">Mindfulness Skills</text>
+  <rect x="120" y="420" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#C6DED2"/>
+  <text x="220" y="472" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1D3A2F">Practice Context</text>
+
+  <rect x="420" y="96" width="360" height="488" rx="22" fill="#FDF4EA" stroke="#F2D9BC"/>
+  <text x="600" y="148" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="28" font-weight="700" fill="#6B3E16">MindfulAgents</text>
+  <rect x="455" y="180" width="290" height="95" rx="14" fill="#FFFFFF" stroke="#F0D1AE"/>
+  <text x="600" y="224" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#5B3618">Script Generator Agent</text>
+  <text x="600" y="252" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" fill="#7A5537">Expert-aligned meditation scripts</text>
+
+  <rect x="455" y="292" width="290" height="95" rx="14" fill="#FFFFFF" stroke="#F0D1AE"/>
+  <text x="600" y="336" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#5B3618">Reflection Agent</text>
+  <text x="600" y="364" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" fill="#7A5537">Prompts self-awareness</text>
+
+  <rect x="455" y="404" width="290" height="95" rx="14" fill="#FFFFFF" stroke="#F0D1AE"/>
+  <text x="600" y="448" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#5B3618">Personalization Agent</text>
+  <text x="600" y="476" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="16" fill="#7A5537">Adapts sessions in real time</text>
+
+  <rect x="850" y="120" width="260" height="440" rx="18" fill="#EAF0FB"/>
+  <text x="980" y="168" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="26" font-weight="700" fill="#1B3D6B">Outcomes</text>
+  <rect x="880" y="200" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#CFDBEF"/>
+  <text x="980" y="252" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1E3553">Higher Engagement</text>
+  <rect x="880" y="310" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#CFDBEF"/>
+  <text x="980" y="362" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1E3553">Greater Awareness</text>
+  <rect x="880" y="420" width="200" height="90" rx="14" fill="#FFFFFF" stroke="#CFDBEF"/>
+  <text x="980" y="472" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="20" fill="#1E3553">Reduced Stress</text>
+
+  <path d="M350 340H410" stroke="#2A614A" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M398 326L415 340L398 354" stroke="#2A614A" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M780 340H840" stroke="#275184" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M828 326L845 340L828 354" stroke="#275184" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <text x="600" y="612" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="18" fill="#4A5F56">Placeholder overview figure. Replace this file with your final paper key figure when ready.</text>
+</svg>
