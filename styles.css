@@ -65,6 +65,25 @@ body {
   align-items: center;
 }
 
+.paper-link {
+  display: inline-block;
+  padding: 10px 16px;
+  border-radius: 999px;
+  font-size: 0.98rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  background: linear-gradient(135deg, #2c6ab0, #1c569a);
+  border: 1.5px solid rgba(23, 73, 132, 0.5);
+  text-decoration: none;
+  border-bottom: none;
+}
+
+.paper-link:hover {
+  filter: brightness(1.06);
+  border-bottom: none;
+}
+
 .award-badge {
   margin: 0;
   padding: 10px 18px;
@@ -83,6 +102,57 @@ h1 {
   font-size: clamp(2rem, 4.8vw, 3.7rem);
   line-height: 1.06;
   letter-spacing: -0.02em;
+}
+
+.authors-card {
+  margin: -6px 0 24px;
+}
+
+.authors-line {
+  margin: 0;
+  text-align: left;
+  font-size: clamp(0.92rem, 1.35vw, 1.15rem);
+  line-height: 1.6;
+}
+
+.author {
+  color: #31485f;
+  text-decoration: none;
+}
+
+.authors-line sup,
+.equal-note sup {
+  font-size: 0.65em;
+}
+
+.equal-note {
+  margin: 8px 0 0;
+  text-align: left;
+  font-size: clamp(0.86rem, 1.2vw, 0.98rem);
+  color: #5f6f83;
+}
+
+.affiliations-note {
+  margin: 6px 0 0;
+  text-align: left;
+  font-size: clamp(0.86rem, 1.2vw, 0.98rem);
+  color: #5f6f83;
+}
+
+.bibtex-block {
+  margin: 0;
+  padding: 14px;
+  border: 1px solid rgba(36, 68, 108, 0.18);
+  border-radius: 10px;
+  background: rgba(244, 249, 255, 0.95);
+  color: #18355b;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .card {
@@ -205,12 +275,7 @@ p:last-child {
 }
 
 footer {
-  margin-top: 18px;
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  color: #355074;
-  font-size: 0.98rem;
+  margin-top: 4px;
 }
 
 a {
@@ -237,5 +302,9 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
+  }
+
+  .authors-card {
+    margin-top: 2px;
   }
 }
