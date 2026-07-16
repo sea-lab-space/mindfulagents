@@ -28,10 +28,10 @@
         <p class="award-badge">🏅 Honorable Mention Award</p>
         <a
           class="paper-link"
-          href="https://arxiv.org/abs/2603.06926"
+          href="https://dl.acm.org/doi/10.1145/3772318.3791817"
           target="_blank"
           rel="noreferrer"
-          >Read on arXiv</a
+          >Read on ACM DL</a
         >
       </div>
       <h1>
@@ -62,6 +62,135 @@
           of Michigan; <sup>5</sup> California State University Dominguez Hills;
           <sup>6</sup> Carnegie Mellon University.
         </p>
+      </section>
+
+      <section class="card plain-card">
+        <h2>This Paper in Plain English</h2>
+        <p>
+          MindfulAgents explores how <strong>AI</strong> can make meditation apps
+          feel more <strong>personal and useful</strong>. Instead of giving
+          everyone the same guided meditation, the system uses a team of AI
+          agents to understand a person's current needs, encourage
+          <strong>reflection</strong>, and create meditation guidance that better
+          fits the moment.
+        </p>
+
+        <div
+          class="plain-visual"
+          aria-label="Visual summary of how MindfulAgents personalizes meditation"
+        >
+          <div class="visual-node">
+            <div class="visual-icon context-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="presentation">
+                <circle cx="24" cy="15" r="7" />
+                <path d="M12 38c2.8-7.5 8.1-11 12-11s9.2 3.5 12 11" />
+                <path d="M9 18c-2.4 2.1-3.7 5-3.7 8.2 0 3.5 1.5 6.5 4.1 8.5" />
+                <path d="M39 18c2.4 2.1 3.7 5 3.7 8.2 0 3.5-1.5 6.5-4.1 8.5" />
+              </svg>
+            </div>
+            <h3>You Today</h3>
+            <p>Mood, stress, time, and what kind of support would help.</p>
+          </div>
+
+          <svg class="flow-arrow" viewBox="0 0 64 24" aria-hidden="true">
+            <path d="M4 12h48" />
+            <path d="m44 5 8 7-8 7" />
+          </svg>
+
+          <div class="agent-system" aria-label="MindfulAgents agent team">
+            <div class="agent-orbit" aria-hidden="true">
+              <div class="orbit-ring"></div>
+              <div class="agent-core">
+                <strong>MindfulAgents</strong>
+                <span>agent team</span>
+              </div>
+              <div class="agent-chip agent-chip-top">Align</div>
+              <div class="agent-chip agent-chip-left">Reflect</div>
+              <div class="agent-chip agent-chip-right">Personalize</div>
+            </div>
+          </div>
+
+          <svg class="flow-arrow" viewBox="0 0 64 24" aria-hidden="true">
+            <path d="M4 12h48" />
+            <path d="m44 5 8 7-8 7" />
+          </svg>
+
+          <div class="visual-node">
+            <div class="visual-icon session-icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" role="presentation">
+                <path d="M11 31c4-3.9 8.3-5.8 13-5.8S33 27.1 37 31" />
+                <path d="M16 37c2.5-2.2 5.2-3.3 8-3.3s5.5 1.1 8 3.3" />
+                <path d="M24 8v10" />
+                <path d="m18 14 6 6 6-6" />
+                <circle cx="24" cy="24" r="17" />
+              </svg>
+            </div>
+            <h3>A Session That Fits</h3>
+            <p>Guided meditation shaped around the moment, not a generic script.</p>
+          </div>
+        </div>
+
+        <p>
+          In two studies, people who used MindfulAgents were more engaged with
+          meditation, felt more <strong>self-aware</strong>, and reported
+          <strong>less stress</strong> during sessions. Over four weeks,
+          participants also kept using meditation more consistently and showed
+          gains in mindfulness. The main takeaway is that carefully designed
+          <strong>AI personalization</strong> may help people build a meditation
+          habit that feels relevant to their real lives.
+        </p>
+
+        <div class="discussion-takeaways">
+          <h3>Discussion Takeaways</h3>
+          <div class="takeaway-list">
+            <div class="takeaway-item">
+              <span aria-hidden="true">01</span>
+              <div>
+                <strong>From instruction to companionship</strong>
+                <p>
+                  The interesting shift is not just smarter recommendations. The
+                  system can start to feel like a <strong>supportive companion</strong>
+                  when it remembers context and responds with care.
+                </p>
+              </div>
+            </div>
+            <div class="takeaway-item">
+              <span aria-hidden="true">02</span>
+              <div>
+                <strong>Reflection makes meditation less isolated</strong>
+                <p>
+                  The reflection step acts like a bridge between
+                  <strong>daily life</strong> and formal practice, helping people
+                  connect what they feel before a session to what they notice
+                  afterward.
+                </p>
+              </div>
+            </div>
+            <div class="takeaway-item">
+              <span aria-hidden="true">03</span>
+              <div>
+                <strong>Safe guidance still needs freshness</strong>
+                <p>
+                  <strong>Expert-approved structure</strong> keeps the meditation
+                  grounded, but too much repetition can make people disengage.
+                  The paper points toward safe building blocks that can be
+                  recombined in new ways.
+                </p>
+              </div>
+            </div>
+            <div class="takeaway-item">
+              <span aria-hidden="true">04</span>
+              <div>
+                <strong>Personalization can support growth</strong>
+                <p>
+                  A strong long-term version would not just adapt one session. It
+                  would help users see their practice becoming part of
+                  <strong>who they are</strong>.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section class="card">
@@ -116,11 +245,18 @@
 
       <section class="card bibtex-card">
         <h2>BibTeX</h2>
-        <pre class="bibtex-block"><code>@article{wu2026mindfulagents,
+        <pre class="bibtex-block"><code>@inproceedings{wu2026mindfulagents,
   title={MindfulAgents: Personalizing Mindfulness Meditation via an Expert-Aligned Multi-Agent System},
-  author={Wu, Mengyuan (Millie) and Jiang, Zhihan and Fan, Yuang and Feng, Richard and Dharmavaram, Sahiti and Polowitz, Mathew and Fallon, Shawn and Islam, Bashima and Benson, Lizbeth and Tung, Irene and Creswell, David and Xu, Xuhai (Orson)},
-  journal={arXiv preprint arXiv:2603.06926},
-  year={2026}
+  author={Wu, Mengyuan and Jiang, Zhihan and Fan, Yuang and Feng, Richard and Dharmavaram, Sahiti and Polowitz, Mathew and Fallon, Shawn and Islam, Bashima and Benson, Lizbeth and Tung, Irene and Creswell, David and Xu, Xuhai},
+  booktitle={Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems},
+  series={CHI '26},
+  pages={1--25},
+  year={2026},
+  publisher={ACM},
+  address={New York, NY, USA},
+  location={Barcelona, Spain},
+  doi={10.1145/3772318.3791817},
+  url={https://doi.org/10.1145/3772318.3791817}
 }</code></pre>
       </section>
 
